@@ -55,11 +55,23 @@ build CMakeFiles/linguagem_C.dir/main.cpp.obj: CXX_COMPILER__linguagem_C_unscann
   OBJECT_DIR = CMakeFiles\linguagem_C.dir
   OBJECT_FILE_DIR = CMakeFiles\linguagem_C.dir
 
-build CMakeFiles/linguagem_C.dir/tratamentoDeAlocacaoMeoria.cpp.obj: CXX_COMPILER__linguagem_C_unscanned_Debug C$:/Desenvolvimento_natan/linguagem_C/tratamentoDeAlocacaoMeoria.cpp || cmake_object_order_depends_target_linguagem_C
-  DEP_FILE = CMakeFiles\linguagem_C.dir\tratamentoDeAlocacaoMeoria.cpp.obj.d
+build CMakeFiles/linguagem_C.dir/AlocacaoMemoriaManual.cpp.obj: CXX_COMPILER__linguagem_C_unscanned_Debug C$:/Desenvolvimento_natan/linguagem_C/AlocacaoMemoriaManual.cpp || cmake_object_order_depends_target_linguagem_C
+  DEP_FILE = CMakeFiles\linguagem_C.dir\AlocacaoMemoriaManual.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\linguagem_C.dir
   OBJECT_FILE_DIR = CMakeFiles\linguagem_C.dir
+
+build CMakeFiles/linguagem_C.dir/sintaxe/declaracaoPonteiro.cpp.obj: CXX_COMPILER__linguagem_C_unscanned_Debug C$:/Desenvolvimento_natan/linguagem_C/sintaxe/declaracaoPonteiro.cpp || cmake_object_order_depends_target_linguagem_C
+  DEP_FILE = CMakeFiles\linguagem_C.dir\sintaxe\declaracaoPonteiro.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linguagem_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\linguagem_C.dir\sintaxe
+
+build CMakeFiles/linguagem_C.dir/sintaxe/alocacaoMemoriaManual.cpp.obj: CXX_COMPILER__linguagem_C_unscanned_Debug C$:/Desenvolvimento_natan/linguagem_C/sintaxe/alocacaoMemoriaManual.cpp || cmake_object_order_depends_target_linguagem_C
+  DEP_FILE = CMakeFiles\linguagem_C.dir\sintaxe\alocacaoMemoriaManual.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linguagem_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\linguagem_C.dir\sintaxe
 
 
 # =============================================================================
@@ -69,7 +81,7 @@ build CMakeFiles/linguagem_C.dir/tratamentoDeAlocacaoMeoria.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable linguagem_C.exe
 
-build linguagem_C.exe: CXX_EXECUTABLE_LINKER__linguagem_C_Debug CMakeFiles/linguagem_C.dir/main.cpp.obj CMakeFiles/linguagem_C.dir/tratamentoDeAlocacaoMeoria.cpp.obj
+build linguagem_C.exe: CXX_EXECUTABLE_LINKER__linguagem_C_Debug CMakeFiles/linguagem_C.dir/main.cpp.obj CMakeFiles/linguagem_C.dir/AlocacaoMemoriaManual.cpp.obj CMakeFiles/linguagem_C.dir/sintaxe/declaracaoPonteiro.cpp.obj CMakeFiles/linguagem_C.dir/sintaxe/alocacaoMemoriaManual.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\linguagem_C.dir

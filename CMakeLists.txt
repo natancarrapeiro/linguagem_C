@@ -4,5 +4,5 @@ project(linguagem_C)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(linguagem_C main.cpp
-        AlocacaoMemoriaManual.cpp
-        AlocacaoMemoriaManual.h)
+        sintaxe/declaracaoPonteiro.cpp
+        sintaxe/alocacaoMemoriaManual.cpp)

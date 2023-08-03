@@ -1,17 +1,8 @@
+#include <cstddef>
+
 //
 // Created by natan on 03/08/2023.
 //
-
-#ifndef LINGUAGEM_C_ALOCACAOMEMORIAMANUAL_H
-#define LINGUAGEM_C_ALOCACAOMEMORIAMANUAL_H
-
-
-#include <cstddef>
-
-class AlocacaoMemoriaManual {
-
-
-};
 void * malloc (size_t size);/*A função “malloc” aloca um
  * determinado número de bytes na memória e retorna um
  * ponteiro para o primeiro byte alocado. Se não for
@@ -34,11 +25,3 @@ void free (void *ptr);
 //O redimensionamento da área alocada é realizado pela
 // função “realloc”.
 void * realloc (void *ptr, size_t newsize)
-
-
-
-
-
-
-
-#endif //LINGUAGEM_C_ALOCACAOMEMORIAMANUAL_H
